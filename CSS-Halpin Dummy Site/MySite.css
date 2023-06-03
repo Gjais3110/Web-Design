@@ -1,0 +1,254 @@
+/* UNIVERSAL STYLE SECTION */
+
+body
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 , h2
+{
+    color : #66bfbf;
+}
+
+h3 , p
+{
+    font-size: 22px;
+
+}
+
+h1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 750%;
+    font-weight: 550;
+    margin : 40px auto auto 20px
+}
+
+h2
+{
+    font-size: 3em;
+}
+
+h3
+{
+    color:#11999E;
+}
+
+p
+{
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+/* HEADER SECTION */
+
+#header-section
+{
+    background-color: #EAF6F6;
+}
+
+.cloud
+{
+    position: relative;
+    width: 12%;
+}
+
+.features
+{
+    width: 16em;
+    height: 16em;
+}
+
+#top-cloud
+{
+    margin-top: 40px;
+    left: 33%;
+}
+
+#bottom-cloud
+{
+    display : block;
+    left: 10%;
+    margin-bottom: 3em;
+}
+
+.mountain
+{
+    width: 40%;
+    margin: auto;
+}
+
+/* PROFILE SECTION */
+
+#pp
+{
+    margin: 4em auto;
+    width: 14em;
+    height: 14em;
+}
+
+#profile h2
+{
+    margin-top: 0;
+}
+
+#profile p
+{
+    width: 24em;
+    margin : 2em auto 3em;
+}
+
+@media only screen and (max-width:500px)
+{
+    body
+    {
+        margin: 0px;
+    }
+
+    #profile p
+    {
+        width: 100%;
+    }
+}
+
+/* SKILL SECTION */
+
+hr
+{
+    width :10%;
+    height : 10%;
+    margin : 8em auto;
+    border-top : 10px dotted rgb(207, 199, 199);
+}
+
+#skill-section
+{
+    width: 60%;
+    margin :auto;
+}
+
+/* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
+
+@media  only screen and (min-width:1440px)
+{
+
+    .skill
+    {
+        margin: 4em 7em;
+        height: 12em;
+    }
+
+    .skill-txt
+    {
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    #skill1-img
+    {
+        float: left;
+    }
+
+    #skill1-txt
+    {
+        margin-left: 15em;
+    }
+
+    #skill2-img
+    {
+        float: right;
+    }
+
+    #skill2-txt
+    {
+        margin-right: 12em;
+    }
+    
+}
+
+.skillimg
+{
+    width : 12em;
+    height: 12em;
+    border-radius: 100%;
+}
+
+
+
+/* CONTACT ME SECTION */
+
+/* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
+
+@media  only screen and (min-width:1440px)
+{
+
+    #advertise
+    {
+        padding: 0 24em;
+        line-height: 1.5em;
+        margin: 2.49em auto 3em;
+    }
+
+}
+
+/* FOOTER SECTION */
+
+#footer
+{
+    background-color: #49cbb5;
+    height: 11em;
+    margin-top: 3em;
+}
+
+a
+{
+    display: inline-block;
+    margin : 3em 2em 2em auto;
+    text-decoration: none;
+    color: #11999E;
+}
+
+i
+{
+    margin-left: 8px;
+}
+
+.copyright
+{
+    color: #EAF6F6;
+    font-size: small;
+}
+
+/* CONTACT ME BUTTON*/
+
+.button {
+    background: #27E1C1;
+    background-image: -webkit-linear-gradient(top, #27E1C1, #0EA293);
+    background-image: -moz-linear-gradient(top, #27E1C1, #0EA293);
+    background-image: -ms-linear-gradient(top, #27E1C1, #0EA293);
+    background-image: -o-linear-gradient(top, #27E1C1, #0EA293);
+    background-image: linear-gradient(to bottom, #27E1C1, #0EA293);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    border: none;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #0079FF;
+    background-image: -webkit-linear-gradient(top, #0079FF, #2F0F5D);
+    background-image: -moz-linear-gradient(top, #0079FF, #2F0F5D);
+    background-image: -ms-linear-gradient(top, #0079FF, #2F0F5D);
+    background-image: -o-linear-gradient(top, #0079FF, #2F0F5D);
+    background-image: linear-gradient(to bottom, #0079FF, #2F0F5D);
+    text-decoration: none;
+  }
