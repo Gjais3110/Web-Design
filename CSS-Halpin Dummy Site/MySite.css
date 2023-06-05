@@ -102,7 +102,7 @@ p
     margin : 2em auto 3em;
 }
 
-@media only screen and (max-width:500px)
+@media screen and (max-width:500px)
 {
     body
     {
@@ -133,7 +133,7 @@ hr
 
 /* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
 
-@media  only screen and (min-width:1440px)
+@media screen and (min-width:1440px)
 {
 
     .skill
@@ -183,7 +183,7 @@ hr
 
 /* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
 
-@media  only screen and (min-width:1440px)
+@media screen and (min-width:1440px)
 {
 
     #advertise
