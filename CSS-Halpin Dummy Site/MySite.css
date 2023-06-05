@@ -102,8 +102,8 @@ p
     margin : 2em auto 3em;
 }
 
-@media screen and (max-width:500px)
-{
+/* @media screen and (max-width:500px)
+{ */
     body
     {
         margin: 0px;
@@ -113,7 +113,7 @@ p
     {
         width: 100%;
     }
-}
+/* } */
 
 /* SKILL SECTION */
 
@@ -133,8 +133,8 @@ hr
 
 /* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
 
-@media screen and (min-width:1440px)
-{
+/* @media screen and (min-width:1440px)
+{ */
 
     .skill
     {
@@ -168,7 +168,7 @@ hr
         margin-right: 12em;
     }
     
-}
+/* } */
 
 .skillimg
 {
@@ -183,8 +183,8 @@ hr
 
 /* DISPLAYS IN THIS FORMAT ONLY ON LAPTOP AND ABOVE ELSE IN ROWS */
 
-@media screen and (min-width:1440px)
-{
+/* @media screen and (min-width:1440px)
+{ */
 
     #advertise
     {
@@ -193,7 +193,7 @@ hr
         margin: 2.49em auto 3em;
     }
 
-}
+/* } */
 
 /* FOOTER SECTION */
 
