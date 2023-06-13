@@ -1,0 +1,350 @@
+/* UNIVERSAL SELECTORS */
+body
+{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* HEADER SECTION */
+header
+{
+    background-color: #ff4c68;
+    color : white;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/* NAVBAR */
+.navbar-brand
+{
+    font-family: "Ubuntu" , sans-serif;
+    font-size: 2.5em;
+}
+
+.navbar
+{
+    padding: 0 0 4.5em;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font: 1.2em "Montserrat-Light";
+}
+
+h1
+{
+    font-family: "Montserrat-Black", "Arial" , sans-serif;
+    font-weight: 900;
+    font-size: 3.2em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* DOWNLOAD BUTTON */
+.downloadbtn
+{
+    margin: 32px 0;
+    text-align: left;
+}
+button
+{
+    margin-right : 16px;
+}
+
+/* PRODUCT IMAGE */
+.product-img
+{
+    width: 16em;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* FEATURES SECTION */
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box
+{
+    padding:5%;
+}
+
+h3
+{
+    font-family: "Montserrat", "Arial" , sans-serif;
+    font-size: x-large;
+}
+
+.feature-text
+{
+    color: #8f8f8f;
+}
+
+/* FEATURE ICONS */
+.icons
+{
+    font-size: 4em;
+    color: #ef8172;
+    margin-bottom: 48px;
+}
+
+.icons:hover
+{
+    color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials
+{
+    background-color: #ef8172;
+}
+
+.carousel-inner
+{
+    text-align: center;
+    padding: 8% 16%;
+    color : white;
+    font-family: "Montserrat-Light" , serif;
+    line-height: 2;
+}
+
+h2
+{
+    font-size: 38px;
+}
+
+.slideicon
+{
+    margin-bottom: 16px;
+}
+
+.customer-image
+{
+    margin: 20px;
+    width: 128px;
+    border-radius: 100%;
+}
+
+h5
+{
+    font-style: italic;
+    display: inline-block;
+}
+
+/* PRESS SECTION */
+#press
+{
+    background-color: #ef8172;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.press-image
+{
+    width: 15%;
+    height: 10%;
+    margin-right: 2em;
+}
+
+/* PRICING SECTION */
+#pricing
+{
+    font-family: "Montserrat-Light";
+    padding: 8% 10%;
+}
+
+#pricing > p
+{
+    margin-bottom: 3em;
+    color: #8f8f8f;
+}
+
+#pricing > h2
+{
+    font-size: 48px;
+}
+
+.card-header
+{
+    font-size: 32px;
+}
+
+.card-title
+{
+    font-size: 48px;
+    font-weight: 550;
+    margin-bottom: 16px;
+}
+
+.card-text
+{
+    font-family: "Ubuntu" , sans-serif;
+    color: #8f8f8f;
+}
+
+.card-body > a
+{
+    font-family: "Montserrat";
+    font-size: 24px;
+}
+
+/* SUMMARY SECTION */
+#conclusion
+{
+    background-color: #ff4c68;
+    padding: 8% 16%;
+    color: white;
+    font-weight: 600;
+}
+
+#conclusion > h1
+{
+    font-family: "Montserrat-Light";
+    font-weight: 600;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+footer
+{
+    padding: 8% 16%;
+}
+
+/* SOCIAL ICONS */
+footer > a
+{
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color:red;
+}
+
+/* COPYRIGHT */
+.copyright
+{
+    margin-top: 2em;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+/*  LAPTOP SIZE */
+@media (max-width : 1076px)   /* ideal is 1024px*/
+{
+
+    /*  DOWNLOAD BUTTON */
+    .downloadbtn > button
+    {
+        font-size: 16px;
+    }
+
+    /*  PRODUCT IMAGE */
+    .product-img
+    {
+        padding-left: 32px;
+    }
+
+    /*  HEADER SECTION */
+    header
+    {
+        padding-bottom: 2em;
+    }
+
+    /*  TESTIMONIAL CAROUSEL */
+    .carousel-inner
+    {
+        height: 50vh;
+    }
+
+}
+
+/* TABLET SIZE */
+@media (max-width : 992px)   /*ideal is 768px*/
+{
+
+    /*  NAVBAR LINKS */
+    .nav-item
+    {
+        text-align: left;
+        padding-left : 0;
+    }
+
+    /*  PRODUCT IMAGE */
+    .product-img
+    {
+        transform: rotate(0deg);
+        padding-left: 0px;
+        position: relative;
+        right: 26%;
+        height: 480px;
+    }
+
+}
+
+/* MOBILE SIZE */
+@media (max-width : 500px) 
+{
+
+    /*  INTRO HEADING */
+    h1
+    {
+        text-align: center;
+    }
+
+    /*  FEATURES SECTION */
+    #features
+    {
+        margin-top: 48px;
+    }
+
+    /*  DOWNLOAD BUTTON */
+    .downloadbtn > button
+    {
+        font-size: 15px;
+    }
+
+    #conclusion > button
+    {
+        font-size: 14px;
+    }
+
+    /*  PRODUCT IMAGE */
+    .product-img
+    {
+        margin-left: 100px;
+    }
+
+    /*  TESTIMONIAL CAROUSEL */
+    .carousel-inner
+    {
+        height: 85vh;
+    }
+
+    /*  CAROUSEL INDICATOR */
+    .carousel-indicators
+    {
+        position: relative;
+        top: 610px;
+    }
+
+    /*  PRICING CARDS */
+    .card
+    {
+        margin-bottom: 64px;
+    }
+
+}
