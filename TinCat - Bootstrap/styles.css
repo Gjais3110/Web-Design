@@ -296,7 +296,7 @@ a:hover
 }
 
 /* MOBILE SIZE */
-@media (max-width : 500px) 
+@media (max-width : 523px) 
 {
 
     /*  INTRO HEADING */
@@ -314,12 +314,12 @@ a:hover
     /*  DOWNLOAD BUTTON */
     .downloadbtn > button
     {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     #conclusion > button
     {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /*  PRODUCT IMAGE */
@@ -329,6 +329,11 @@ a:hover
     }
 
     /*  TESTIMONIAL CAROUSEL */
+    #testimonials
+    {
+        height : 650px;
+    }
+    
     .carousel-inner
     {
         height: 85vh;
@@ -339,6 +344,12 @@ a:hover
     {
         position: relative;
         top: 610px;
+    }
+
+    /* PRESS SECTION  */
+    #press
+    {
+        margin-top: -10px;
     }
 
     /*  PRICING CARDS */
