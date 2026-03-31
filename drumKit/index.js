@@ -10,7 +10,7 @@ for(var i = 0;i<btns.length;i++)
 
 function handleClick()
 {
-    path = "tile-"+file+ ".mp3";
+    path = "./tile-"+file+ ".mp3";
     audio = new Audio(path);
     audio.play();
     var tile = document.getElementsByClassName(file);
